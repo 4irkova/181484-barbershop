@@ -19,3 +19,103 @@ h2{
   line-height: 30px;
   color: #000000;
 }
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.main-header {
+  background-color: #000000;
+  margin-bottom: 50px;
+}
+.container {
+  width: 940px;
+  padding: 0;
+  margin: 0 auto;
+}
+.nav-menu {
+  float: left;
+  width: 500px;
+}
+.logo, li {
+  display: inline-block;
+}
+.logo {
+  float: left;
+  margin-top: 20px;
+}
+.user-container {
+  float: right;;
+  width: 140px;
+  margin-top: 20px;
+}
+.login {
+  outline: 2px solid white;
+}
+.tools{
+  outline: 2px solid black;
+  float: left;
+  margin-right: 500px;
+}
+.filters {
+  outline: 2px solid black;
+  float: left;
+  margin-right: 40px;
+}
+input {
+  display: block;
+}
+.filter-btn {
+  display: block;
+}
+.product {
+  display: inline-block;
+  vertical-align: top;
+}
+p {
+  width: 200px;
+}
+.price {
+  display: inline-block;
+  width: 100px;
+}
+.pages {
+  margin-left: 220px;
+  margin-top: 40px;
+}
+.main-footer {
+  margin-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #000000;
+  color: white;
+}
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+.footer-social {
+  float: left;
+  width: 180px;
+}
+.footer-copyright {
+  float: right;
+  width: 180px;
+}
+.img {
+  float: left;
+  width: 500px;
+  outline: 2px solid black;
+}
+.description {
+  display: block;
+  outline: 2px solid black;
+  margin-left: 650px;
+}
+.contents {
+  display: block;
+  outline: 2px solid black;
+  margin-left: 650px;
+}
